@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "skr-cloudbees-ws"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAwIwUOqSv847OboujYj488rPRAvRn+nDYGjbPfKAcbVS01W/UMHqQ3ZBzSkdmKgClzq2c8rU6EKOtWCFLffXNH5Q==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "snehaskr19"
+              password: "{AQAAABAAAAAwIwUOqSv847OboujYj488rPRAvRn+nDYGjbPfKAcbVS01W/UMHqQ3ZBzSkdmKgClzq2c8rU6EKOtWCFLffXNH5Q==}"
